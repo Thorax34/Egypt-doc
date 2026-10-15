@@ -1,0 +1,26 @@
+{
+  "name": "egypt-doc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original 2D cartoon documentary about Ancient Egypt, rendered with Remotion",
+  "scripts": {
+    "dev": "remotion studio --port 3000",
+    "render:proto": "remotion render Prototype out/prototype.mp4 --codec=h264",
+    "still": "remotion still Prototype out/frame.png --frame=60",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.381",
+    "@remotion/google-fonts": "4.0.381",
+    "@remotion/media": "4.0.381",
+    "@remotion/transitions": "4.0.381",
+    "mediabunny": "^1.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.381"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}
